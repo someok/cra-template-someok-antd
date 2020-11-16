@@ -87,6 +87,17 @@ module.exports = function ({env}) {
             ],
         },
 
+        jest: {
+            configure(config) {
+                // 参见 https://ant.design/docs/react/use-with-create-react-app#Test-with-Jest
+                config.transformIgnorePatterns.push(
+                    '/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$'
+                );
+
+                return config;
+            },
+        },
+
         plugins: [
             {
                 plugin: CracoAlias,

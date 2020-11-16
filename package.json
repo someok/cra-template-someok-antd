@@ -1,6 +1,6 @@
 {
   "name": "cra-template-someok-antd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create-react-app v4 template, support antd and less etc.",
   "homepage": "https://github.com/someok/cra-template-someok-antd#readme",
   "license": "MIT",

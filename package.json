@@ -1,0 +1,26 @@
+{
+  "name": "cra-template-someok-antd",
+  "version": "0.0.1",
+  "description": "create-react-app v4 template, support antd and less etc.",
+  "homepage": "https://github.com/someok/cra-template-someok-antd#readme",
+  "license": "MIT",
+  "keywords": [
+    "create-react-app",
+    "antd",
+    "less"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "JX Wang",
+    "url": "https://github.com/someok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/someok/cra-template-someok-antd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/someok/cra-template-someok-antd/issues"
+  }
+}
